@@ -21,7 +21,7 @@ def load_data_and_compute_embeddings(file_path):
     return questions, answers, question_embeddings
 
 # Load dataset and compute embeddings (replace with correct path)
-file_path = r"C:\Users\abhis\OneDrive\Desktop\final_year_project\medicalQnA\train.csv"
+file_path = r"train.csv"
 questions, answers, question_embeddings = load_data_and_compute_embeddings(file_path)
 
 # Define a dictionary of generic responses for greetings and other conversational inputs
