@@ -66,8 +66,8 @@ def get_best_match(user_question, model, question_embeddings, questions, answers
     return best_answer
 
 # Streamlit Interface
-st.title("Medical Chatbot (Optimized with Precomputed BERT Embeddings)")
-st.write("Ask any medical-related questions, and the chatbot will find the best-matching question from the dataset and provide an answer.")
+st.title("Medical Chatbot")
+st.write("Ask any medical-related questions...")
 
 # Input from user
 user_input = st.text_input("Type your question here:")
